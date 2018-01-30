@@ -64,4 +64,4 @@
  - git push origin master
 
  - git branch -d branch_b
- - git push origin :branch_c
+ - git push origin :branch_b
