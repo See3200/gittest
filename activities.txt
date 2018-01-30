@@ -13,3 +13,8 @@
  - git add .
  - git commit -m "first commit on branch_b"
  - git push origin branch_b
+
+ - git checkout -b branch_c
+ - git add .
+ - git commit -m "first commit on branch_c"
+ - git push origin branch_c
