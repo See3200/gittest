@@ -18,3 +18,13 @@
  - git add .
  - git commit -m "first commit on branch_c"
  - git push origin branch_c
+
+ - git checkout branch_a
+ - git merge branch_b
+ - git checkout master
+ - git merge branch_c
+
+ - git branch -d branch_a
+ - git push origin --delete branch_a
+
+ - 
