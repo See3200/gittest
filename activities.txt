@@ -8,3 +8,8 @@
  - git add .
  - git commit -m "first commit on branch_a"
  - git push origin branch_a
+
+ - git checkout -b branch_b
+ - git add .
+ - git commit -m "first commit on branch_b"
+ - git push origin branch_b
