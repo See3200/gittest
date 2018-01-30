@@ -1,2 +1,10 @@
  - git init
- - 
+ - git add .
+ - git commit -m "first commit"
+ - git remote add origin https://github.com/See3200/gittest.git
+ - git push -u origin master
+
+ - git checkout -b branch_a
+ - git add .
+ - git commit -m "first commit on branch_a"
+ - git push origin branch_a
