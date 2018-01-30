@@ -19,12 +19,30 @@
  - git commit -m "first commit on branch_c"
  - git push origin branch_c
 
- - git checkout branch_a
- - git merge branch_b
- - git checkout master
- - git merge branch_c
+ - git checkout branch_b
+ - git merge branch_a
+ - git push origin branch_b
+ - git checkout branch_c
+ - git merge master
+ - git push origin branch_c
 
  - git branch -d branch_a
  - git push origin --delete branch_a
 
- - 
+ - git checkout master
+ - git pull origin master
+ - git add .
+ - git commit "second commit"
+ - git push origin master
+
+ - git checkout branch_b
+ - git pull origin branch_b
+ - git add .
+ - git commit "second commit on branch_b"
+ - git push origin branch_b
+
+ - git checkout branch_c
+ - git pull origin branch_c
+ - git add .
+ - git commit "second commit on branch_c"
+ - git push origin branch_c
