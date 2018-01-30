@@ -62,3 +62,6 @@
  - git add .
  - git commit -m "resolved a conflict between master and branch_b"
  - git push origin master
+
+ - git branch -d branch_b
+ - git push origin :branch_c
