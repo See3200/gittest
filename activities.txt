@@ -50,7 +50,7 @@
  - git checkout branch_b
  - git merge branch_c (conflict)
  - git add .
- - git commit -m "resolved a conflict"
+ - git commit -m "resolved a conflict between branch_b and branch_c"
  - git push origin branch_b
 
  - git branch -d branch_c
@@ -58,5 +58,7 @@
 
  - git checkout master
  - git pull origin master
- - git merge branch_b
+ - git merge branch_b (conflict)
+ - git add .
+ - git commit -m "resolved a conflict between master and branch_b"
  - git push origin master
